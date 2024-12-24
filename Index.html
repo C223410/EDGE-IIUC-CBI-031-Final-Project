@@ -140,7 +140,6 @@
         />
         <div role="tabpanel" class="tab-content p-10">
           <div class="flex flex-wrap lg:justify-between">
-
             <!-- 1st -->
             <div class="lg:w-[45%]">
               <h1 class="font-bold mb-5">
@@ -265,28 +264,85 @@
               </div>
             </div>
 
-
             <!-- 2nd -->
-            <div class="shadow-lg p-4 lg:w-[45%]">
+            <div class="shadow-lg p-4 lg:w-[45%] min-h-0">
               <h1 class="font-bold text-2xl mb-5 mt-5">Community statistics</h1>
 
-              <div class="grid grid-cols-2">
-                <div>
-                    <img class="bg-[rgba(220,53,69,.1)] h-12 p-1" src="https://www.svgrepo.com/show/128846/menu-button.svg" alt="">
-                    <div></div>
+              <div class="grid grid-cols-2 gap-1">
+                <div class="flex">
+                  <img
+                    class="bg-[rgba(220,53,69,.1)] h-12 p-4 rounded-lg mr-3"
+                    src="https://www.svgrepo.com/show/128846/menu-button.svg"
+                    alt=""
+                  />
+                  <div class="flex-col">
+                    <h1>0</h1>
+                    <h1>Completed Sessions</h1>
+                  </div>
                 </div>
-                <div>
-                    <div></div>
+
+                <div class="flex">
+                  <img
+                    class="bg-[rgba(40,167,69,.2)] h-12 p-4 rounded-lg mr-3"
+                    src="https://img.icons8.com/ios7/512/40C057/clock.png"
+                    alt=""
+                  />
+                  <div class="flex-col">
+                    <h1>0 Minutes</h1>
+                    <h1>Total mentoring time</h1>
+                  </div>
                 </div>
-                <div>
-                    <div></div>
+
+                <div class="flex">
+                  <img
+                    class="bg-blue-100 h-11 p-4 rounded-lg mr-3"
+                    src="https://freemiumicons.com/wp-content/uploads/2022/04/blue-calendar-icon.png"
+                    alt=""
+                  />
+                  <div class="flex-col">
+                    <h1>3%</h1>
+                    <h1>Average Attendence</h1>
+                  </div>
                 </div>
-                <div>
-                    <div></div>
+
+                <div class="flex">
+                  <img
+                    class="h-12 mr-4"
+                    src="https://cdn.iconscout.com/icon/premium/png-256-thumb/experience-2042904-1722125.png?f=webp&w=256"
+                    alt=""
+                  />
+                  <div class="flex-col">
+                    <h1>5 Years</h1>
+                    <h1>Experience</h1>
+                  </div>
                 </div>
               </div>
-            </div>
 
+              <h1 class="font-bold text-2xl mb-5 mt-5">Sessions</h1>
+
+              <button class="btn btn-outline btn-primary flex justify-between rounded-lg w-[100%]" >
+
+                <div class="flex-col">
+
+                  <h1>Full Stack Developer Mock Interview</h1>
+                  <div class="flex items-center">
+                    <img
+                      class="h-5 mr-2"
+                      src="https://cdn0.iconfinder.com/data/icons/set-ui-app-android/32/9-512.png"
+                      alt=""
+                    />
+                    <span class="text-slate-500 mr-2">40 minitues</span>
+                  </div>
+
+                </div>
+
+                <div class="bg-gray-400 text-black p-3 rounded-lg font-[700]"> 450.00 ৳ </div>
+                
+              </button>
+
+              <button class="btn btn-primary mt-5 w-[100%]">Book Now</button>
+
+            </div>
           </div>
         </div>
 
@@ -387,6 +443,5 @@
       <hr />
       <h1 class="font-bold m-5">© 2024 All rights reserved.</h1>
     </footer>
-
   </body>
 </html>
